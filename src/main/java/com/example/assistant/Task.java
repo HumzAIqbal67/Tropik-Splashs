@@ -16,7 +16,7 @@ public class Task {
         this.dueDate = dueDate;
         this.completionLength = completionLength;
         this.priority = priority;
-        this.fav = false;
+        this.fav = false; // default setting
     }
 
     public void changeName(String newName) {
