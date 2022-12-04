@@ -9,4 +9,13 @@ public class ToDoList {
         this.tasks = new ArrayList<>();
     }
 
+    public void addTask(Task t){
+        this.tasks.add(t);
+    }
+
+    public void removeTask(Task t){
+        this.tasks.remove(t);
+    }
+
+
 }
